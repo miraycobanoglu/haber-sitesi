@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 254, 241);
+}
+.container {
+    margin: 0 200px;
+}
+.header {
+    padding-top: 88px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item {
+    padding-left: 35px;
+}
+.hero-text{
+    width: 730px;
+    display: flex;
+    align-items: center;
+
+}
+.hero-title{
+    padding-right: 50px;
+    font-size: 35px
+}
+.read-more-link{
+    text-decoration: none;
+    color: black;
+    background-color: orangered;
+    padding: 10px 20px;
+}
+
+.hero-content p{
+    margin-bottom: 40px;
+}
+
+.hero{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+.new{
+    background-color: rgb(1, 10, 30);
+    width: 300px;
+    margin-left: 25px;
+    height:auto;
+    height:auto;
+}
+.new-list{
+    color:white;
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+    margin-left:0;
+    padding-left:0;
+    margin-top:0;
+    margin-bottom:0;
+}
+.new-header{
+    color:rgb(151, 151, 15);
+}
+.new-content{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: flex-start;
+}
+.new-link{
+    color: white;
+}
+.new-title{
+    margin-bottom:25px;
+    margin-top:2px;
+}
+.new-item h3{
+ margin:0px;
+}
+.new-desc{
+    margin-bottom:10px;
+    color: rgb(142, 142, 142);
+}
+hr{
+    margin-bottom:30px;
+    margin-top:30px;
+    height:1px;
+    background-color: rgb(142, 142, 142);
+    border:none;
+}
+
+.cards{
+    margin-top:50px;
+    margin-bottom: 90px;
+
+}
+.card{
+    display:flex;
+    justify-content: center;
+
+}
+.card1{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.card-text{
+    margin-left:20px;
+    height:130px;
+}
+.card-text h3{
+    font-size: 30px;
+    padding:0px;
+    margin:0px;
+}
+.card-description{
+    font-weight: bold;
+    font-size: large;
+}
