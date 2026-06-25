@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <script src="scripts.js" defer></script>
     <title>News Homepage</title>
 </head>
 <body>
@@ -14,7 +14,7 @@
         width="64"
         height="40"
         />
-        <navbar class="navbar">
+        <navbar class="navbar active">
             <ul class="nav-list">
                 <li class="nav-item">
                     <a href="#home" class="nav-link">Home</a></li>
@@ -28,6 +28,25 @@
                     <a href="#categories" class="nav-link">Categories</a></li>
             </ul>
         </navbar>
+            <button class="menu-toggle" aria-label="Toggle menu">
+            <img src="./assets/images/icon-menu.svg" alt="Menu Icon" class="menu-icon"
+            width="24"
+            height="24"/>
+        </button>
+        <div class="header-overlay">
+            <ul class="header-overlay-list">
+                <li class="overlay-item">
+                    <a href="#home" class="nav-link">Home</a></li>
+                <li class="overlay-item">
+                    <a href="#news" class="nav-link">News</a></li>
+                <li class="overlay-item">
+                    <a href="#popular" class="nav-link">Popular</a></li>
+                <li class="overlay-item">
+                    <a href="#trending" class="nav-link">Trending</a></li>
+                <li class="overlay-item">
+                    <a href="#categories" class="nav-link">Categories</a></li>
+            </ul>
+        </div>
     </header>
     <section class="hero">
         <article class="hero-content">
@@ -39,7 +58,7 @@
                 height="300">
             </picture>
             <div class="hero-text">           
-                 <h1 class="hero-title">The Bright Future of WEB 3.0?</h1>
+                 <h6 class="hero-title">The Bright Future of WEB 3.0?</h6>
             <div class="hero-content">
              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus ex, vitae alias assumenda rem laudantium aperiam velit. Quos eveniet illo dolor dolore, nam assumenda dolores at? Molestias corrupti provident molestiae?</p>
              <a href="#" class="read-more-link">Read more</a>
